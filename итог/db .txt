@@ -1,0 +1,19 @@
+create database pachka;
+use pachka;
+create table material(
+idMaterial int auto_increment primary key,
+name nvarchar(50),
+type nvarchar(50),
+image nvarchar(50),
+price nvarchar(50),
+sklad nvarchar(50),
+max nvarchar(50),
+kolvo nvarchar(50),
+ed nvarchar(50)
+
+);
+create table postavki(
+idPostavka int auto_increment primary key,
+nameClient nvarchar(100),
+postavshik nvarchar(50)
+);

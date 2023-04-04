@@ -1,0 +1,31 @@
+﻿<Window x:Class="pachka.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pachka"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Icon="/Большая пачка.png">
+    <Grid Background="#FFD32B39">
+        <Grid Margin="28,36,31,29">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="35*"/>
+                <ColumnDefinition Width="706*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White" Offset="0.492"/>
+                    <GradientStop Color="#FFFFC1C1" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <DataGrid x:Name="dgClients" Margin="274,0,0,0" ColumnWidth="Auto" Grid.Column="1"/>
+            <Button x:Name="btAdd" Content=" Добавить " HorizontalAlignment="Left" Height="38" Margin="22,87,0,0" VerticalAlignment="Top" Width="179" Click="btAdd_Click" Grid.Column="1"/>
+            <Button x:Name="btEdit" Content="Редактировать " HorizontalAlignment="Left" Height="39" Margin="22,146,0,0" VerticalAlignment="Top" Width="179" Click="btEdit_Click" Grid.Column="1"/>
+            <Button x:Name="btDelete" Content="Удалить" HorizontalAlignment="Left" Height="37" Margin="137,210,0,0" VerticalAlignment="Top" Width="119" Click="btDelete_Click" Grid.Column="1"/>
+            <Label Content="ID:" HorizontalAlignment="Left" Height="27" Margin="8,216,0,0" VerticalAlignment="Top" Width="36" Grid.Column="1"/>
+            <TextBox x:Name="tbID" HorizontalAlignment="Left" Height="37" Margin="49,210,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="49" Grid.Column="1"/>
+            <Button x:Name="btPostavki" Grid.Column="1" Content="Возможные поставщики" HorizontalAlignment="Left" Height="48" Margin="3,311,0,0" VerticalAlignment="Top" Width="152" Click="btPostavki_Click"/>
+        </Grid>
+
+    </Grid>
+</Window>

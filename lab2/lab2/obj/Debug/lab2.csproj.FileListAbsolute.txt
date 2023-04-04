@@ -1,0 +1,16 @@
+C:\Users\Абоба\Desktop\УЧ ПМ 01\lab2\lab2\bin\Debug\lab2.exe.config
+C:\Users\Абоба\Desktop\УЧ ПМ 01\lab2\lab2\bin\Debug\lab2.exe
+C:\Users\Абоба\Desktop\УЧ ПМ 01\lab2\lab2\bin\Debug\lab2.pdb
+C:\Users\Абоба\Desktop\УЧ ПМ 01\lab2\lab2\obj\Debug\lab2.csproj.AssemblyReference.cache
+C:\Users\Абоба\Desktop\УЧ ПМ 01\lab2\lab2\obj\Debug\lab2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Абоба\Desktop\УЧ ПМ 01\lab2\lab2\obj\Debug\MainWindow.g.cs
+C:\Users\Абоба\Desktop\УЧ ПМ 01\lab2\lab2\obj\Debug\App.g.cs
+C:\Users\Абоба\Desktop\УЧ ПМ 01\lab2\lab2\obj\Debug\lab2_MarkupCompile.cache
+C:\Users\Абоба\Desktop\УЧ ПМ 01\lab2\lab2\obj\Debug\lab2_MarkupCompile.lref
+C:\Users\Абоба\Desktop\УЧ ПМ 01\lab2\lab2\obj\Debug\MainWindow.baml
+C:\Users\Абоба\Desktop\УЧ ПМ 01\lab2\lab2\obj\Debug\lab2.g.resources
+C:\Users\Абоба\Desktop\УЧ ПМ 01\lab2\lab2\obj\Debug\lab2.Properties.Resources.resources
+C:\Users\Абоба\Desktop\УЧ ПМ 01\lab2\lab2\obj\Debug\lab2.csproj.GenerateResource.cache
+C:\Users\Абоба\Desktop\УЧ ПМ 01\lab2\lab2\obj\Debug\lab2.csproj.CoreCompileInputs.cache
+C:\Users\Абоба\Desktop\УЧ ПМ 01\lab2\lab2\obj\Debug\lab2.exe
+C:\Users\Абоба\Desktop\УЧ ПМ 01\lab2\lab2\obj\Debug\lab2.pdb

@@ -1,0 +1,44 @@
+create database autoall;
+use autoall;
+create table users(
+idUser int auto_increment primary key,
+login nvarchar(50),
+password nvarchar(50)
+);
+create table clients(
+idClient int auto_increment primary key,
+nameClient nvarchar(100),
+Birthday nvarchar(10),
+Gender nvarchar(10),
+RegistrationDate nvarchar(10),
+Email nvarchar(50),
+Phone nvarchar(11),
+StatusClient nvarchar(50)
+);
+create table visits(
+idVisit int auto_increment primary key,
+Service nvarchar(50),
+nameClient nvarchar(100),
+dateServise nvarchar(10)
+);
+
+create table gender(
+idGender int auto_increment primary key,
+Gender nvarchar(10)
+);
+use autoall;
+
+insert into gender(Gender) values('мужской');
+insert into gender(Gender) values('женский');
+
+use autoall;
+create table statusClient(
+idStatus int auto_increment primary key,
+StatusClient nvarchar(10)
+);
+use autoall;
+
+insert into statusClient(StatusClient) values('постоянный');
+insert into statusClient(StatusClient) values('проблемный');
+insert into statusClient(StatusClient) values('новый');
+

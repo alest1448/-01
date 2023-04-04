@@ -1,0 +1,38 @@
+﻿<Window x:Class="pachka.add"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pachka"
+        mc:Ignorable="d"
+        Title="add" Height="900" Width="500" Icon="/Большая пачка.png">
+    <Grid Background="White">
+        <Grid HorizontalAlignment="Left" Height="977" Margin="36,30,0,0" VerticalAlignment="Top" Width="328">
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFFFFFE1" Offset="1"/>
+                    <GradientStop Color="#FFFFC1C1" Offset="0"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <TextBox x:Name="tbName" HorizontalAlignment="Center" Height="33" Margin="0,126,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="190" FontFamily="Tw Cen MT"/>
+            <TextBox x:Name="tbType" HorizontalAlignment="Center" Height="33" Margin="0,187,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="190" FontFamily="Tw Cen MT"/>
+            <TextBox x:Name="tbPrice" HorizontalAlignment="Center" Height="33" Margin="0,301,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="190" FontFamily="Tw Cen MT"/>
+            <TextBox x:Name="tbSklad" HorizontalAlignment="Center" Height="33" Margin="0,358,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="190" FontFamily="Tw Cen MT"/>
+            <TextBox x:Name="tbMax" HorizontalAlignment="Center" Height="33" Margin="0,414,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="190" FontFamily="Tw Cen MT"/>
+            <Label Content="Наименование" HorizontalAlignment="Center" Height="30" Margin="0,96,0,0" VerticalAlignment="Top" Width="100"/>
+            <Label Content="Тип" HorizontalAlignment="Center" Height="30" Margin="0,152,0,0" VerticalAlignment="Top" Width="100"/>
+            <Label Content="Изображение" HorizontalAlignment="Center" Height="30" Margin="0,217,0,0" VerticalAlignment="Top" Width="100"/>
+            <Label Content="Цена" HorizontalAlignment="Center" Height="30" Margin="0,271,0,0" VerticalAlignment="Top" Width="128"/>
+            <Label Content="Склад" HorizontalAlignment="Center" Height="30" Margin="0,334,0,0" VerticalAlignment="Top" Width="100"/>
+            <Label Content="Макс. количество" HorizontalAlignment="Center" Height="30" Margin="0,384,0,0" VerticalAlignment="Top" Width="100"/>
+            <Label Content="Количество в упаковке" HorizontalAlignment="Center" Height="30" Margin="0,447,0,0" VerticalAlignment="Top" Width="100"/>
+            <Button x:Name="btAdd" Content="Добавить" HorizontalAlignment="Center" Height="27" Margin="0,616,0,0" VerticalAlignment="Top" Width="190" Click="btAdd_Click" Background="#FFD32B39" Foreground="White"/>
+            <Button  x:Name="tbBack" Content="Назад" HorizontalAlignment="Left" Height="32" Margin="10,62,0,0" VerticalAlignment="Top" Width="69" Click="tbBack_Click" Background="#FFD32B39" Foreground="White"/>
+            <TextBox x:Name="tbEd" HorizontalAlignment="Center" Height="34" Margin="0,543,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="190" FontFamily="Tw Cen MT"/>
+            <Label Content="Единица измерения" HorizontalAlignment="Center" Height="30" Margin="0,513,0,0" VerticalAlignment="Top" Width="100"/>
+            <TextBox x:Name="tbKolvo" HorizontalAlignment="Center" Height="33" Margin="0,475,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="190" FontFamily="Tw Cen MT"/>
+            <TextBox x:Name="tbImage" HorizontalAlignment="Center" Height="33" Margin="0,238,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="190" FontFamily="Tw Cen MT"/>
+        </Grid>
+
+    </Grid>
+</Window>
